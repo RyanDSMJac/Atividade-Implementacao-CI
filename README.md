@@ -4,14 +4,14 @@ API REST de tarefas (Express + TypeScript + PostgreSQL) criada para demonstrar u
 
 ## Endpoints
 
-| Método | Rota         | Descrição               |
-| ------ | ------------ | ----------------------- |
-| GET    | /health      | Status da aplicação     |
-| GET    | /tasks       | Lista tarefas           |
-| GET    | /tasks/:id   | Busca uma tarefa        |
-| POST   | /tasks       | Cria (`{"title": "x"}`) |
-| PUT    | /tasks/:id   | Atualiza `title`/`done` |
-| DELETE | /tasks/:id   | Remove                  |
+| Método | Rota       | Descrição               |
+| ------ | ---------- | ----------------------- |
+| GET    | /health    | Status da aplicação     |
+| GET    | /tasks     | Lista tarefas           |
+| GET    | /tasks/:id | Busca uma tarefa        |
+| POST   | /tasks     | Cria (`{"title": "x"}`) |
+| PUT    | /tasks/:id | Atualiza `title`/`done` |
+| DELETE | /tasks/:id | Remove                  |
 
 ## Rodando localmente
 

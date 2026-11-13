@@ -12,7 +12,8 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "test:unit": "vitest run --config vitest.config.mts --coverage",
-    "test:integration": "vitest run --config vitest.integration.config.mts"
+    "test:integration": "vitest run --config vitest.integration.config.mts",
+    "security": "npm audit --omit=dev --audit-level=high"
   },
   "engines": {
     "node": ">=22"
